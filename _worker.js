@@ -1,10 +1,10 @@
 
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
+let userID = 'b383ebb0-3d17-44bb-bf69-d954e2a5d680';
 let proxyIP = '';
 let DNS64Server = '';
-//let sub = '';
+let sub = 'vless.fxxk.dedyn.io';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
 let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvY29uZmlnL0FDTDRTU1JfT25saW5lX01pbmlfTXVsdGlNb2RlLmluaQ==');
 let subProtocol = 'https';
@@ -4568,3 +4568,4 @@ async function nginx() {
 	`
     return text;
 }
+
